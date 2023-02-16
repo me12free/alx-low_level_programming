@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
- *
  * main - A prgram thsat prints a line with puts function
- *
- *
  * Return : 0(Success)
  */
 int main(void)
