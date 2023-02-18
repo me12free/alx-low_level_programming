@@ -5,13 +5,15 @@
 
 /* betty style doc for function main goes there */
 /**
- * main: main program goes here
+ * main - my main function goes here
  *
  * Return: always 0
  */
 int main(void)
 {
+
 	int n;
+
 	int x;
 
 	srand(time(0));
