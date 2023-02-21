@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - main function
- * _putchar : print the '_putchar'
+ * main - main function that prints '_putchar'
  *
- * Return : always 0
+ * Return: always 0
  */
-
 int main(void)
 {
 	char x[] = "_putchar";
