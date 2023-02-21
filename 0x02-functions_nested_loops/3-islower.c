@@ -3,12 +3,12 @@
 /**
  * _islower - function to print lowercase
  *
+ * @c: parameter to be printed
  *
- * 0c: parameter to be printed
- *
- *
- * Return: 1 if it is a lowercase and 0 otherwise
+ * Return: 1 if it is a lowercase
+ * and 0 otherwise
  */
+
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
