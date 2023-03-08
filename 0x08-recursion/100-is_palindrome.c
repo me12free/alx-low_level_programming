@@ -13,7 +13,7 @@ int palind2(char *a, int l)
 }
 /**
  * is_palindrome -check if itring is palindrome
- * @a: string
+ * @s: parameter
  * Return: 1 or -1
  */
 int is_palindrome(char *s)
