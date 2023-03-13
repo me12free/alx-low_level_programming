@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * strtow - concatenates all the arguments of your program
- *@str: string
- *@av: arguments
- * Return: a pointer to a new string
+ * *argstostr - concatenates all arguments of program
+ *
+ * @ac: argument count
+ * @av: point to pointer to arguments
+ * Return: pointer to new string or NULL if failed
  */
 char *argstostr(int ac, char **av)
 {
