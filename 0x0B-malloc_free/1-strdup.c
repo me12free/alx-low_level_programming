@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _strdup - function returns a pointer to a new string 
- *@str: string we need to duplicate
+ * _strdup - function returns a pointer to a new string
+ * @str: string we need to duplicate
  * Return: NULL if insufficient memory was available
  */
 char *_strdup(char *str)
