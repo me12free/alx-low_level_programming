@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * get_endianness - Checks the endianness.
- *
+ * get_endianness - returns the number of bits you would need to flip to get from one number to another.
  * Return: 0 or 1
  */
+
 int get_endianness(void)
 {
-	int num = 1;
-	char *endian_check = (char *)&num;
+	unsigned int n = 1;
+	char* byte_ptr = (char*) & n;
 
-	return (*endian_check);
+	return (int)(*byte_ptr);
 }
+

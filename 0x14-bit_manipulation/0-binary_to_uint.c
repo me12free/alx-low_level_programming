@@ -2,11 +2,11 @@
 #include <stddef.h>
 
 /**
- * binary_to_uint - Converts a binary number to an unsigned int.
- * @b: A pointer to a string of 0 and 1 chars.
- *
- * Return: If b is NULL | has chars ~ 0 or 1 Otherwise
+ * binary_to_uint - Converrts binary no to unsigned int.
+ * @b: Pointer to string of 0 and 1 char
+ * Return: If b is NUll
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result = 0;
@@ -23,5 +23,5 @@ unsigned int binary_to_uint(const char *b)
 		else
 			return (0);
 	}
-	return (result);
+	return result;
 }
